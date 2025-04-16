@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f3f3;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .album-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .album {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 21px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .album:hover {
+    transform: scale(1.05);
+  }
+  
+  .album img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .album-info {
+    padding: 15px;
+  }
+  
+  .album-info h3 {
+    margin: 10px 0 5px;
+    color: #222;
+  }
+  
+  .album-info p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9em;
+  }
